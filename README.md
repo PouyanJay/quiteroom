@@ -10,7 +10,9 @@ A browser music studio with eight instruments, a perspective keyboard, and warm 
 [![Live demo](https://img.shields.io/badge/demo-pouyanjay.github.io%2Fquiteroom-c59b72?style=flat-square)](https://pouyanjay.github.io/quiteroom/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-8b9479?style=flat-square)](LICENSE)
 
-[The experience](#the-experience) · [Play](#play) · [Sequence](#sequence) · [Learn](#learn) · [Run locally](#run-locally)
+[**Open Quite Room →**](https://pouyanjay.github.io/quiteroom/)
+
+[The experience](#the-experience) · [Play](#play) · [Sequence](#sequence) · [Learn](#learn) · [Get started](#get-started)
 
 <img src="docs/assets/studio-play.png" alt="Quite Room in Play mode, with a glass music stand and perspective keyboard in a softly lit room" width="1000" />
 
@@ -56,7 +58,7 @@ Start with *Ode to Joy*, *Twinkle, Twinkle*, or a C major warm-up. When you're r
 
 ## Your first minute
 
-1. **Open the studio** and play a few notes with the piano.
+1. **[Open the studio](https://pouyanjay.github.io/quiteroom/)** and play a few notes with the piano.
 2. **Choose another sound** and adjust tone or space to make it yours.
 3. **Open Sequence** to sketch a loop, or **Learn** to follow a melody.
 
@@ -69,11 +71,17 @@ Start with *Ode to Joy*, *Twinkle, Twinkle*, or a C major warm-up. When you're r
 
 Sound starts after you interact with the studio. MIDI hardware access depends on your browser and permissions. Saved sequences stay in this browser and do not sync between devices.
 
-## Run locally
+## Get started
 
-No build step or API key is needed. From the repository directory:
+**[Play Quite Room in your browser](https://pouyanjay.github.io/quiteroom/)**. The live studio is hosted on GitHub Pages. No installation or API key is needed.
+
+### Run locally
+
+To run your own copy, clone the repository and serve the app:
 
 ```sh
+git clone https://github.com/PouyanJay/quiteroom.git
+cd quiteroom
 python3 -m http.server 8000 --directory dist
 ```
 
