@@ -1,0 +1,267 @@
+/* Legible controls contained within the glass, with no browser dropdown chrome. */
+.music-stand{transform:none;overflow:visible;z-index:6}.glass-bar{position:absolute;z-index:8;left:1.8%;right:1.8%;top:3%;height:38px;display:flex;align-items:center;gap:12px;padding:0 10px;background:linear-gradient(110deg,#312a20d9,#211c15ba);border:1px solid #e4cda12b;border-radius:9px;box-shadow:inset 0 1px #fff1;backdrop-filter:blur(12px);color:#eadcc6}.glass-caption{font:13px Georgia,serif;flex:1;letter-spacing:.3px}body[data-mode=learn] .glass-caption{display:none}.glass-actions{margin-left:auto;display:flex;gap:5px;align-items:center;flex-shrink:0}.glass-icon,#help.glass-icon,#import.glass-icon{width:29px;height:29px;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;padding:6px;border:1px solid transparent;border-radius:5px;background:transparent;color:#ddc9a8;font:13px Arial,sans-serif;box-shadow:none}.glass-icon svg{width:16px;height:16px}.glass-icon:hover{background:#efce9130!important;border-color:#e2c28a33!important}.glass-bar .learn-tools{position:static;display:none;align-items:center;flex:1;width:auto;min-width:0;height:auto;max-width:none;padding:0;margin:0;opacity:1;gap:12px;background:none}body[data-mode=learn] .glass-bar .learn-tools{display:flex}.learn-tools>div:first-child{min-width:0}.learn-tools .learn-settings{gap:6px;max-width:none;flex-wrap:nowrap;align-items:center;margin-left:auto}.learn-settings label{font-size:0}.glass-select{display:inline-flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid #ccb0832c;background:#19150e66;color:#edddc3;border-radius:5px;font:12px Arial,sans-serif;padding:7px 10px;white-space:nowrap;max-width:230px;overflow:hidden;text-overflow:ellipsis}.glass-select:hover{background:#66503366;border-color:#d2b47e66}.glass-native-source{display:none!important}.learn-settings .chip{padding:7px 9px;font:11px Arial,sans-serif;min-height:28px;color:#dbcaac;border:1px solid #c9ad7c2b;background:#20191077}.learn-settings .chip.active{background:#ae8d5140;color:#ffe3b2;border-color:#d7b47866}.view{padding-top:52px}.play-art{height:100%}.fall-area{height:calc(100% - 18px)}.learn-footer{bottom:1%;font:10px Arial,sans-serif;opacity:.85}.sequence-tools{font-size:11px;height:28px;margin-bottom:5px}.sequence-tools .text-button,.sequence-footer .text-button{font-size:11px}.sequence-tools label{font-size:11px}.sequence-tools .glass-select{padding:4px 8px;font-size:11px}.tracks{height:27px;margin-bottom:6px}.track button{font-size:10px;padding:5px}.roll-container{height:calc(100% - 88px)}.sequence-footer{font-size:10px}.pitch-label{font-size:9px}.glass-panel{position:absolute!important;inset:0!important;z-index:15;width:100%!important;max-width:none!important;height:100%;max-height:none!important;margin:0!important;padding:17px 24px!important;box-sizing:border-box;border:1px solid #e0cba44d;border-radius:17px 17px 4px 4px;background:linear-gradient(120deg,#393125eb,#171710e8)!important;box-shadow:inset 0 1px #fff2,0 4px 20px #0003!important;backdrop-filter:blur(22px) saturate(.75);color:#e7d9bf;overflow:auto;overscroll-behavior:contain}.glass-panel:not([open]){display:none!important}.glass-panel[open]{display:block}.glass-panel::backdrop{display:none}.glass-panel .eyebrow{display:none}.glass-panel h2{margin:0 40px 13px 0;font:20px Georgia,serif;letter-spacing:0;color:#f0dfc2}.glass-panel .close{position:absolute;top:9px;right:12px;display:flex;justify-content:center;align-items:center;width:32px;height:32px;font-size:23px;color:#ddc9a7;background:#d4b7850d;border:1px solid #c5a87626;border-radius:50%}.glass-panel .close:hover{background:#d4b78522}.glass-panel p{font-size:12px;line-height:1.5;color:#c3b59e}.glass-panel .glass-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;max-width:700px}.glass-choice{display:flex;align-items:center;justify-content:space-between;min-height:44px;text-align:left;padding:10px 15px;border:1px solid #e3c68c22;border-radius:7px;background:#e9cf9a08;color:#e4d3b6;font-size:13px}.glass-choice[aria-pressed=true]{border-color:#d9bc8077;background:#c9a15e26;color:#ffe4b6}.glass-choice[aria-pressed=true]:after{content:'✓';color:#e5c38c}.glass-choice:hover{background:#b8975833}.glass-sound-body{display:grid;grid-template-columns:minmax(0,1fr) 170px;gap:24px}.glass-panel #instruments{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:0}.glass-panel .instrument-option{min-height:56px;gap:4px;padding:7px;border-radius:7px;background:#ead0a009;border-color:#c4a46f25}.glass-panel .instrument-option strong{font:11px Arial,sans-serif;color:#e7d2af}.glass-panel .instrument-option .instrument-icon{height:18px;width:18px}.glass-panel .instrument-option svg{height:18px;width:18px}.glass-panel .instrument-option.selected{background:#be94572a;border-color:#d1ad7066}.glass-panel .sound-controls{display:block;padding:0;margin:0;background:none}.glass-panel .dial-pair{display:none}.glass-panel .sound-controls .labelrow{display:flex;font:11px Arial,sans-serif;margin:0;color:#e0cfb0}.glass-panel .sound-controls>input{display:block;width:100%;margin:13px 0 18px;accent-color:#d9b47a}.glass-panel .sound-controls .range-labels{display:none}.glass-sound-foot{display:flex;justify-content:space-between;align-items:center;margin-top:13px}.glass-panel .volume{float:none!important;display:flex!important;font-size:11px}.glass-panel #sustain{font-size:11px}.glass-panel .keyboard-toolbar{position:static;display:flex;opacity:1;height:auto;padding:17px 0;gap:24px}.glass-panel .octave-controls,.glass-panel .keyboard-options{font-size:12px;gap:10px;color:#dcc8a6}.glass-panel .octave-controls button{width:30px;height:30px;font-size:18px}.glass-panel .keyboard-options input{width:15px;height:15px}.glass-panel .desktop-hint{display:none!important}.glass-panel #midi{width:auto;display:flex;font-size:12px;padding:10px;border:1px solid #d8b77d44;background:#d8b77d15}.glass-panel #midiLabel{display:inline!important}.glass-panel .upload-zone{padding:14px;margin:10px 0;min-height:70px}.glass-panel .upload-zone strong{font-size:13px}.glass-panel .upload-zone span{font-size:11px}.glass-panel .import-info{display:grid;grid-template-columns:1fr 1fr;gap:18px}.glass-panel .import-info p{font-size:11px}.glass-panel .help-item{margin:12px 0}.glass-panel .help-item p{font-size:12px}.room-tools{opacity:.8}.sound-picker{width:28px;height:30px;font-size:17px;justify-content:center}.quick-sound,nav button{font-size:clamp(11px,.78cqw,14px)}.key-hit-layer{position:absolute;inset:0;display:flex;transform:rotateX(39deg);transform-origin:50% 100%;background:transparent;z-index:10;touch-action:none;user-select:none;pointer-events:auto}.key-hit{flex:1;position:relative;padding:0;margin:0;border:0;border-radius:0;background:transparent!important;color:transparent;box-shadow:none;touch-action:none;-webkit-tap-highlight-color:transparent}.key-hit.black{position:absolute;top:0;width:calc(100% / 36 * .6);height:63%;z-index:2;transform:translateY(-.8cqw);padding-bottom:.8cqw;box-sizing:content-box}.key-hit span{display:none}.key-hit:focus-visible{outline:2px solid #f6d99f;outline-offset:-3px;background:#e9c27c22!important}.keyboard{pointer-events:none}.keyboard .key,.keyboard .key:before,.keyboard .key:after{pointer-events:none}.keyboard-scroll{z-index:7}.glass-bar input,.glass-bar button{touch-action:manipulation}.panel-open .glass-bar{visibility:hidden}
+@media(max-width:1000px){.music-stand{left:10%;width:80%}.glass-bar{height:34px;padding:0 6px;gap:6px}.glass-actions{gap:1px}.glass-icon,#help.glass-icon,#import.glass-icon{width:25px;height:27px;padding:5px}.glass-select{font-size:11px;padding:6px;max-width:155px}.learn-settings .chip{font-size:10px;padding:6px}.glass-bar .learn-tools{gap:6px}.view{padding-top:46px}.glass-panel{padding:13px 17px!important}.glass-panel h2{font-size:17px;margin-bottom:9px}.glass-sound-body{gap:14px;grid-template-columns:minmax(0,1fr) 125px}.glass-panel .instrument-option{min-height:46px;padding:5px}.glass-panel .instrument-option strong{font-size:10px}.glass-sound-foot{margin-top:9px}}
+@media(max-width:650px){.quiet-stage{min-width:650px}body{display:block;overflow-x:auto;padding-top:max(0px,calc((100svh - 366px)/2))}.music-stand{left:4%;width:92%}.glass-panel .glass-choices{grid-template-columns:repeat(2,1fr);gap:5px}.glass-choice{min-height:32px;padding:7px 10px;font-size:11px}.glass-panel .close{height:26px;width:26px;top:6px}.glass-panel .instrument-option{min-height:39px}.glass-panel .instrument-option .instrument-icon{display:none}.glass-panel .sound-controls>input{margin:7px 0 12px}.glass-panel .sound-controls .labelrow{font-size:10px}.glass-panel h2{font-size:16px;margin-bottom:8px}.glass-panel .volume input{width:65px!important}.glass-sound-foot{margin-top:6px}.glass-panel p{font-size:11px}}
+/* The physical glass has one fixed boundary, independent of viewport breakpoints. */
+.music-stand{left:16.7%;top:19.9%;width:66.6%;height:27.55%;transform:none}
+.glass-bar{left:4%;right:4%;top:6%;height:30px;padding:0;gap:16px;border:0;border-radius:0;background:none;box-shadow:none;backdrop-filter:none;color:#ebd9b8}
+.glass-caption,body[data-mode=learn] .glass-caption{display:block;min-width:0;flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font:clamp(11px,1cqw,17px) Georgia,serif;letter-spacing:.2px;color:#ddc9a7;text-shadow:0 1px 4px #0008}
+.glass-actions{gap:clamp(5px,1cqw,16px);margin-left:auto}
+.glass-actions .glass-icon,.glass-actions #help.glass-icon,.glass-actions #import.glass-icon{height:30px;width:28px;padding:5px;border:0;border-radius:0;background:none!important;box-shadow:none;color:#d8c29e;opacity:.8;transition:opacity .15s,filter .15s}
+.glass-actions .glass-icon svg{height:19px;width:19px;stroke-width:1.4;filter:drop-shadow(0 1px 2px #0008)}
+.glass-actions .glass-icon:hover,.glass-actions .glass-icon:focus-visible{opacity:1;color:#ffe2ac;filter:drop-shadow(0 0 5px #e7c18a55);background:none!important}
+.glass-actions .glass-icon:focus-visible{outline:1px solid #d1b58766;outline-offset:2px;border-radius:3px}
+.view{padding-top:clamp(45px,4cqw,66px)}
+.glass-panel{inset:3% 2% 2%!important;width:96%!important;height:95%;border:0;border-radius:9px;background:linear-gradient(115deg,#29251cc9,#1a1b15b5)!important;box-shadow:none!important;backdrop-filter:blur(16px) saturate(.7);padding:16px 23px!important}
+.glass-panel h2{font-size:clamp(17px,1.5cqw,24px);font-weight:400;color:#e4d3b4}
+.glass-panel .close{border:0;background:none;border-radius:0;color:#dbc6a2;right:12px;top:9px}
+.glass-panel .close:hover{background:none;color:#ffe4b9}
+.glass-panel .glass-choice{border:0;border-bottom:1px solid #d7be8f20;border-radius:0;background:none;min-height:40px;color:#dcc9a8}
+.glass-panel .glass-choice[aria-pressed=true]{background:linear-gradient(90deg,#d5b37b19,transparent);border-bottom-color:#e2c38c66;color:#ffe4b7}
+.glass-panel .glass-choice:hover{background:#dbc08910}
+#practiceDialog .learn-tools{display:flex;position:static;flex-direction:column;align-items:flex-start;width:100%;height:auto;max-width:none;margin:0;padding:4px 0;gap:20px;opacity:1;background:none}
+#practiceDialog .learn-tools .eyebrow{display:none}
+#practiceDialog .learn-settings{display:flex;gap:12px;align-items:center;flex-wrap:wrap;max-width:none;margin:0}
+#practiceDialog .glass-select{background:none;border:0;border-bottom:1px solid #cbb48b55;border-radius:0;font-size:14px;padding:9px 2px;color:#e9d8b8;max-width:100%}
+#practiceDialog #songSelectButton{font:18px Georgia,serif}
+#practiceDialog .chip{font-size:12px;background:none;border:0;border-bottom:1px solid #b9a07933;border-radius:0;padding:10px 13px;color:#c4b18e}
+#practiceDialog .chip.active{background:#d4b37b12;border-bottom-color:#dcc08a;color:#f7dba7}
+#practiceDialog .learn-settings label{font-size:0}
+#practiceDialog .glass-native-source{display:none!important}
+@media(max-width:1000px){.glass-bar{left:4%;right:4%;top:5%;height:26px;gap:8px}.glass-actions{gap:5px}.glass-actions .glass-icon,.glass-actions #help.glass-icon,.glass-actions #import.glass-icon{width:24px;height:26px;padding:4px}.glass-actions .glass-icon svg{width:17px;height:17px}.view{padding-top:39px}.glass-panel{padding:12px 17px!important}#practiceDialog .learn-tools{gap:10px}#practiceDialog .glass-select{font-size:12px}#practiceDialog #songSelectButton{font-size:15px}#practiceDialog .chip{font-size:11px;padding:8px}}
+@media(max-width:650px){.music-stand{left:16.7%;width:66.6%}.glass-actions{gap:4px}.glass-panel .glass-sound-body{grid-template-columns:1fr 95px;gap:10px}.glass-panel .instrument-option strong{font-size:9px}.glass-panel .glass-choice{min-height:30px}.glass-caption{max-width:150px}}
+/* Screen contents are projected onto the existing glass, never onto a second panel. */
+.music-stand.panel-open>.view{visibility:hidden;pointer-events:none}
+.music-stand>.glass-panel{inset:5% 4% 5%!important;width:92%!important;height:90%!important;max-height:90%!important;padding:8px 12px!important;background:transparent!important;background-image:none!important;border:0!important;border-radius:0!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;outline:0;scrollbar-width:none;color:#ecdbba;text-shadow:0 1px 3px #15110baa}
+.music-stand>.glass-panel::-webkit-scrollbar{display:none}
+.glass-panel h2{font:400 clamp(15px,1.35cqw,21px) Georgia,serif!important;line-height:1.2;margin:0 38px 15px 0;color:#ead6b1;letter-spacing:.2px}
+.glass-panel .close,.glass-panel .close:hover{top:0;right:0;width:28px;height:28px;border:0!important;border-radius:0;background:transparent!important;box-shadow:none!important;color:#e6d0a7;font:300 24px Arial,sans-serif;text-shadow:0 0 8px #e1bb7133}
+.glass-panel .glass-choices{max-width:none;gap:4px 24px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.glass-panel .glass-choice,.glass-panel .glass-choice[aria-pressed=true],.glass-panel .glass-choice:hover{background:transparent!important;box-shadow:none!important;border:0;border-radius:0;min-height:38px;padding:8px 3px;font:400 clamp(12px,.95cqw,15px) Arial,sans-serif;color:#d8c7a7;text-shadow:0 1px 3px #15110baa}
+.glass-panel .glass-choice[aria-pressed=true]{color:#ffe5b6}
+.glass-panel .glass-choice:hover{color:#fff0d3;text-shadow:0 0 9px #e7ba6d66}
+.glass-panel .glass-choice[aria-pressed=true]:after{color:#f2d299;font-size:13px}
+.glass-panel .instrument-option,.glass-panel .instrument-option.selected,.glass-panel .instrument-option:hover{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0}
+.glass-panel .instrument-option{min-height:48px;padding:5px;gap:5px}
+.glass-panel .instrument-option.selected strong,.glass-panel .instrument-option.selected .instrument-icon{color:#ffe2aa;text-shadow:0 0 9px #d8ad5c66}
+.glass-panel .instrument-option.selected:after{content:'';height:1px;width:20px;background:#e4c48a;box-shadow:0 0 5px #dbb37666}
+.glass-panel .instrument-option .instrument-icon{background:none!important;border:0!important}
+.glass-panel .glass-select,.glass-panel .chip,.glass-panel .chip.active,.glass-panel #midi{background:transparent!important;box-shadow:none!important;border:0!important;border-radius:0;color:#e8d4ae}
+.glass-panel .chip.active{color:#ffe7b9;text-decoration:underline;text-decoration-color:#d4b57899;text-underline-offset:7px}
+.glass-panel .upload-zone{background:none!important;border:1px dashed #dfc28c55;border-radius:0;box-shadow:none}
+.glass-panel .help-item,.glass-panel .import-info,.glass-panel .sound-controls{background:none!important;box-shadow:none!important}
+.glass-panel input[type=range]{background:#d7c09955;accent-color:#f2d29b}
+.glass-panel p,.glass-panel .help-item p{color:#d2c1a1}
+#practiceDialog .learn-tools{gap:13px}
+@media(max-width:1000px){.music-stand>.glass-panel{padding:5px 8px!important}.glass-panel h2{margin-bottom:9px}.glass-panel .glass-choice{min-height:31px;padding:5px 2px}.glass-panel .instrument-option{min-height:37px}.glass-panel .glass-choices{gap:2px 15px}}
+/* Keep the bottom edge of the glass free of labels, counters and idle controls. */
+.music-stand .learn-footer,.music-stand .stand-caption{display:none!important}
+.music-stand .fall-area{height:100%}
+/* Visible geometry receives input; the old duplicate hit layer is retired. */
+#keyInput{display:none!important;pointer-events:none!important}
+#keyboard,#keyboard .key{pointer-events:auto;touch-action:none}
+#keyboard .key:before,#keyboard .key:after{pointer-events:none}
+
+/* Leave the glass title area clear in every mode. */
+.music-stand .glass-caption{display:none!important}
+/* One etched-glass language for the toolbar and every screen. */
+.music-stand{--glass-ink:#d8c29e;--glass-lit:#ffe2ac}
+.glass-panel svg{fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 2px #0008)}
+.glass-panel .glass-icon,.glass-panel .close,.glass-panel .octave-controls button{display:inline-flex;align-items:center;justify-content:center;width:28px;height:30px;padding:5px;border:0!important;border-radius:0;background:none!important;box-shadow:none!important;color:var(--glass-ink);opacity:.8;transition:opacity .15s,filter .15s}
+.glass-panel .glass-icon svg,.glass-panel .octave-controls svg{width:19px;height:19px;flex-shrink:0}
+.glass-panel .glass-icon:hover,.glass-panel .glass-icon:focus-visible,.glass-panel .octave-controls button:hover{opacity:1;color:var(--glass-lit);filter:drop-shadow(0 0 5px #e7c18a55)}
+.glass-panel .glass-back{position:absolute;top:0;left:0}
+.glass-panel .close{top:0;right:0}
+.glass-panel h2{margin:0 38px 18px!important;padding:2px 0 6px;font:400 clamp(12px,1cqw,16px)/1.5 Arial,sans-serif!important;letter-spacing:.03em;color:var(--glass-ink)}
+.glass-panel button:focus-visible,.glass-panel input:focus-visible,.glass-panel .upload-zone:focus-within{outline:1px solid #d1b58788;outline-offset:2px;border-radius:3px}
+.glass-panel .glass-choice{gap:16px;color:var(--glass-ink);font-weight:400}
+.glass-panel .glass-choice:after{content:none!important}
+.glass-choice svg{width:19px;height:19px;flex-shrink:0;visibility:hidden;opacity:.8}
+.glass-choice[aria-pressed=true] svg{visibility:visible}
+.glass-panel .glass-choice[aria-pressed=true]{color:var(--glass-lit)}
+.glass-panel .glass-select{gap:18px;font:400 clamp(12px,.95cqw,15px) Arial,sans-serif!important;color:var(--glass-ink)!important}
+.glass-select svg{width:16px;height:16px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.glass-panel .instrument-option .instrument-icon,.glass-panel .instrument-option strong{color:var(--glass-ink);font-weight:400}
+.glass-panel .instrument-option svg{width:19px;height:19px;stroke-width:1.4}
+.glass-panel .instrument-option .sel-dot{display:none}
+.glass-panel .chip,.glass-panel #midi,.glass-panel .keyboard-options,.glass-panel .octave-controls{color:var(--glass-ink)!important;font-weight:400}
+.glass-panel .chip.active{color:var(--glass-lit)!important}
+.glass-panel .help-item strong,.glass-panel .import-info strong,.glass-panel .upload-zone strong{font-weight:400;color:var(--glass-ink)}
+.glass-panel .help-item b{color:var(--glass-ink);font-weight:400;border:0;background:none}
+.glass-panel input[type=checkbox]{appearance:none;width:14px;height:14px;border:1px solid #d8c29e99;border-radius:2px;background:transparent;display:inline-grid;place-content:center;vertical-align:middle}
+.glass-panel input[type=checkbox]:checked:after{content:'';width:7px;height:4px;border-left:1px solid var(--glass-lit);border-bottom:1px solid var(--glass-lit);transform:translateY(-1px) rotate(-45deg)}
+@media(max-width:1000px){.glass-panel .glass-icon{width:24px;height:26px;padding:4px}.glass-panel .glass-icon svg{width:17px;height:17px}.glass-panel h2{margin-bottom:12px!important}}
+/* Keep screen headings and their content on the same inset baseline. */
+.music-stand>.glass-panel{padding:8px 12px!important}
+.glass-panel .glass-back,.glass-panel .close{top:8px}
+.glass-panel .glass-back{left:12px}
+.glass-panel .close{right:12px}
+.glass-panel h2{min-height:30px;box-sizing:border-box;display:flex;align-items:center;padding:0!important;margin:0 40px 12px!important}
+#practiceDialog .learn-tools{padding:0 40px;box-sizing:border-box;gap:14px}
+#practiceDialog .learn-settings{gap:24px}
+#practiceDialog .glass-select{padding:6px 0}
+#practiceDialog .chip{padding:6px 0}
+.glass-panel .sound-controls .labelrow{justify-content:space-between;align-items:center;min-height:18px;margin:0}
+.glass-panel .sound-controls>input[type=range]{box-sizing:border-box;display:block;width:100%!important;max-width:none!important;margin:8px 0 13px!important;height:2px;padding:0}
+.glass-panel .sound-controls>input[type=range]::-webkit-slider-thumb{width:13px;height:13px}
+.glass-panel .sound-controls>input[type=range]::-moz-range-thumb{width:13px;height:13px;border:0;background:#e6c994}
+.glass-sound-foot{margin-top:0}
+.room-tools{display:flex;align-items:center;gap:10px;opacity:1;z-index:30}
+.room-tools .glass-icon,.room-tools #help,.room-tools #import,.room-tools #fullscreen{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;padding:8px;background:transparent!important;border:0;box-shadow:none;color:#d8c29e;opacity:.85}
+.room-tools .glass-icon svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 2px #0008)}
+.room-tools .glass-icon:hover,.room-tools .glass-icon:focus-visible{opacity:1;color:#ffe2ac;filter:drop-shadow(0 0 5px #e7c18a55)}
+.room-tools .glass-icon:focus-visible{outline:1px solid #d1b58788;outline-offset:2px}
+body.expanded-room{position:fixed;inset:0;width:100vw;height:100dvh;min-height:0;padding:0;overflow:hidden;display:grid;place-items:center;background:#100c08;z-index:999}
+body.expanded-room .quiet-stage{width:min(100vw,177.7778dvh);min-width:0}
+@media(max-width:1000px){.room-tools{gap:5px}.room-tools .glass-icon,.room-tools #help,.room-tools #import,.room-tools #fullscreen{width:32px;height:32px;padding:6px}.room-tools .glass-icon svg{width:21px;height:21px}#practiceDialog .learn-tools{gap:8px}#practiceDialog .learn-settings{gap:18px}.glass-panel .sound-controls>input[type=range]{margin:5px 0 9px!important}}
+.glass-sound-header{display:flex;align-items:center;gap:24px;margin:0 40px 12px;min-height:30px}
+.glass-sound-header h2{margin:0!important;flex:0 1 auto}
+.glass-sound-header #sustain{display:inline-flex;align-items:center;gap:8px;padding:4px 0;font-size:11px;white-space:nowrap}
+.glass-sound-header #sustain span{font:9px Arial,sans-serif;opacity:.65}
+.glass-panel .close,.glass-panel .close:hover,.glass-panel .close:focus-visible{filter:none!important;text-shadow:none!important;transform:none}
+.glass-panel .close svg{filter:none!important}
+.glass-panel .close:before,.glass-panel .close:after{content:none!important}
+#soundPicker{display:inline-flex;align-items:center;justify-content:center;flex:0 0 30px;width:30px;height:32px;padding:5px;position:relative;z-index:12;touch-action:manipulation;background:transparent;border:0;color:#d8c29e}
+#soundPicker svg{display:block!important;width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linejoin:round;pointer-events:none}
+#soundPicker #railSound{display:none!important}
+#soundPicker:hover{color:#ffe2ac;filter:drop-shadow(0 0 4px #e7c18a44)}
+.control-rail{z-index:9}
+#importDialog{overflow:hidden!important}
+#importDialog .upload-zone{position:absolute;inset:48px 40px 28px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:0;margin:0;padding:8px;box-sizing:border-box;border:0;background:none!important;cursor:pointer}
+#importDialog .upload-zone svg{width:27px;height:27px;flex-shrink:0}
+#importDialog .upload-zone strong{font:400 13px Arial,sans-serif}
+#importDialog .upload-zone span{font:400 10px Arial,sans-serif;opacity:.65}
+#importDialog .upload-zone:hover{color:#ffe2ac;filter:drop-shadow(0 0 5px #e7c18a33)}
+#importDialog #importStatus{position:absolute;left:40px;right:40px;bottom:6px;font-size:11px;text-align:center;max-height:28px;overflow:auto}
+@media(max-width:1000px){.glass-sound-header{gap:18px}.glass-sound-header #sustain{font-size:10px}#importDialog .upload-zone{inset:42px 40px 25px;gap:4px}#importDialog .upload-zone svg{width:22px;height:22px}}
+/* Direct learning actions: no intermediate Practice page. */
+.music-stand .learn-control-sources{display:none!important}
+.learn-direct-actions{display:none;align-items:center;gap:clamp(10px,1cqw,16px);margin-right:auto}
+body[data-mode=learn] .learn-direct-actions{display:flex}
+.learn-direct-actions .glass-icon{position:relative;width:28px;height:30px;padding:5px;border:0;background:none!important;border-radius:0;box-shadow:none;color:#d8c29e;opacity:.65}
+.learn-direct-actions svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.learn-direct-actions .glass-icon.active{color:#ffe2ac;opacity:1}
+.learn-direct-actions .glass-icon.active:after{content:'';position:absolute;bottom:0;left:8px;right:8px;height:1px;background:currentColor}
+.learn-direct-actions .glass-icon:hover{opacity:1;color:#ffe2ac}
+.learn-direct-actions .glass-icon:focus-visible{outline:1px solid #d1b58788;outline-offset:2px}
+/* Independent dismiss control, with a single unfiltered SVG in every state. */
+.music-stand .screen-dismiss{all:unset;box-sizing:border-box;position:absolute;top:8px;right:12px;display:flex;align-items:center;justify-content:center;width:28px;height:30px;cursor:pointer;color:#d8c29e;opacity:.85;z-index:2;-webkit-tap-highlight-color:transparent}
+.music-stand .screen-dismiss:hover{color:#ffe2ac;opacity:1}
+.music-stand .screen-dismiss svg{display:block;width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;pointer-events:none;filter:none!important;box-shadow:none;text-shadow:none}
+.music-stand .screen-dismiss:before,.music-stand .screen-dismiss:after{content:none!important;display:none!important}
+.music-stand .screen-dismiss:focus-visible{outline:1px solid #d1b58788;outline-offset:2px}
+/* Both sides of the glass toolbar share exactly the same icon treatment. */
+.glass-bar .glass-actions,.glass-bar .learn-direct-actions{gap:clamp(5px,1cqw,16px)}
+.glass-bar .glass-icon{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;box-sizing:border-box;width:28px;height:30px;padding:5px;border:0;border-radius:0;background:none!important;box-shadow:none;color:#d8c29e;opacity:.8;transition:opacity .15s,filter .15s}
+.glass-bar .glass-icon svg{display:block;width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 2px #0008);pointer-events:none}
+.glass-bar .glass-icon:hover,.glass-bar .glass-icon:focus-visible{opacity:1;color:#ffe2ac;filter:drop-shadow(0 0 5px #e7c18a55);background:none!important}
+.glass-bar .glass-icon:focus-visible{outline:1px solid #d1b58766;outline-offset:2px;border-radius:3px}
+.glass-bar .glass-icon.active{opacity:1;color:#ffe2ac}
+.glass-bar .learn-direct-actions .glass-icon.active:after{content:none}
+@media(max-width:1000px){.glass-bar .glass-actions,.glass-bar .learn-direct-actions{gap:5px}.glass-bar .glass-icon{width:24px;height:26px;padding:4px}.glass-bar .glass-icon svg{width:17px;height:17px}}
+@media(max-width:650px){.glass-bar .glass-actions,.glass-bar .learn-direct-actions{gap:4px}}
+/* Sequencer fits inside the glass; the roll owns the remaining height. */
+#sequenceView{position:absolute;inset:clamp(39px,4cqw,60px) 4% 5%;width:92%;height:auto;padding:0;box-sizing:border-box;display:flex;flex-direction:column;gap:4px;overflow:hidden}
+#sequenceView .sequence-tools{display:flex;align-items:center;justify-content:space-between;gap:12px;flex:0 0 29px;min-height:0;height:29px;margin:0;padding:0}
+#sequenceView #tracks{display:flex;align-items:center;gap:10px;margin:0;height:100%;flex-shrink:0}
+#sequenceView .track{position:relative;display:flex;align-items:center;border:0;background:none;border-radius:0;height:100%;gap:0;color:#b3a084}
+#sequenceView .track.active{color:#ffe2ac;background:none;border:0}
+#sequenceView .track.active:after{content:'';position:absolute;bottom:0;left:5px;right:5px;height:1px;background:#d8c29e66}
+#sequenceView .track button,#sequenceView .glass-icon{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:27px;height:27px;padding:5px;border:0;border-radius:0;background:none!important;box-shadow:none;color:inherit;font-size:0}
+#sequenceView svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+#sequenceView .mute{opacity:.55}
+#sequenceView .muted-track{opacity:.35;color:#bca78a}
+#sequenceView button:hover{color:#ffe2ac;opacity:1;filter:drop-shadow(0 0 4px #e7c18a44)}
+#sequenceView button:focus-visible{outline:1px solid #d8c29e;outline-offset:-1px}
+.sequence-actions{display:flex;align-items:center;gap:5px;color:#d8c29e}
+#sequenceRange{font:9px Arial,sans-serif;white-space:nowrap;color:#baa98c;min-width:42px;text-align:center}
+#sequenceView .sequence-beats{display:grid;grid-template-columns:28px repeat(16,minmax(0,1fr));flex:0 0 13px;font:8px Arial,sans-serif;color:#baa98c;text-align:center;align-items:center}
+#sequenceView .roll-container{flex:1;min-height:0;height:auto;margin:0;padding:0;overflow:hidden;border:1px solid #cdb58433;border-radius:3px;background:#130f0866;box-shadow:none}
+#sequenceView #pianoRoll{width:100%;height:100%;min-width:0;display:grid;grid-template-columns:28px repeat(16,minmax(0,1fr));grid-template-rows:repeat(12,minmax(0,1fr))}
+#sequenceView .pitch-label,#sequenceView .roll-cell{min-width:0;min-height:0;height:auto;margin:0;border:0;border-bottom:1px solid #d5ba8120;border-right:1px solid #d5ba8117;border-radius:0;padding:0}
+#sequenceView .pitch-label{position:static;z-index:auto;background:#221b1055;font:8px Arial,sans-serif;color:#cfbc99}
+#sequenceView .roll-cell{background:transparent}
+#sequenceView .roll-cell.black-row{background:#0d0a0740}
+#sequenceView .roll-cell.bar{border-left:1px solid #dec28d55}
+#sequenceView .roll-cell.on:after{inset:1px 2px;border-radius:2px;background:#dec08b;box-shadow:0 0 5px #cda96a33}
+#sequenceView .roll-cell.current{background:#d4b47725;box-shadow:inset 1px 0 #eed3a5}
+#sequenceView .roll-cell:hover{background:#d4b47738;filter:none}
+@media(max-width:1000px){#sequenceView{top:36px;gap:2px}#sequenceView .sequence-tools{flex-basis:25px;height:25px;gap:4px}#sequenceView #tracks{gap:4px}#sequenceView .track button,#sequenceView .glass-icon{width:23px;height:23px;padding:4px}#sequenceView svg{width:15px;height:15px}.sequence-actions{gap:1px}#sequenceRange{font-size:8px;min-width:35px}}
+/* A quiet ivory-tinted pitch strip; reveal one note at a time. */
+#sequenceView .pitch-label{position:relative;background:#a68a5738;border-right:1px solid #d8bc8755;overflow:visible;color:transparent;font-size:0}
+#sequenceView .pitch-label.pitch-black{background:#604b2a55}
+#sequenceView .pitch-label.pitch-hover,#sequenceView .pitch-label:hover{z-index:4;background:#d8bc8760}
+#sequenceView .pitch-label.pitch-hover:after,#sequenceView .pitch-label:hover:after{content:attr(data-pitch);position:absolute;left:0;top:50%;transform:translateY(-50%);width:27px;min-height:16px;display:flex;align-items:center;justify-content:center;background:#433724;color:#ffe2ac;border:1px solid #c7a77066;border-radius:3px;font:10px/16px Arial,sans-serif;box-sizing:border-box;pointer-events:none;box-shadow:0 2px 6px #0004}
+#sequenceView .pitch-label:first-child:after{top:0;transform:none}
+#sequenceView .pitch-label:nth-last-child(17):after{top:auto;bottom:0;transform:none}
+/* Sequencer settings extend left from a fixed gear, then retract in place. */
+.sequence-settings{display:flex;align-items:center;justify-content:flex-end;min-width:0;margin-left:auto;gap:0}
+.sequence-settings .sequence-actions{max-width:0;opacity:0;visibility:hidden;overflow:hidden;transform:translateX(12px);pointer-events:none;transition:max-width .24s ease,opacity .18s ease,transform .24s ease,visibility .24s;white-space:nowrap}
+.sequence-settings .sequence-actions>*{flex-shrink:0}
+.sequence-settings.is-open .sequence-actions{max-width:285px;opacity:1;visibility:visible;transform:translateX(0);pointer-events:auto}
+#sequenceView .sequence-gear{flex-shrink:0;margin-left:7px;color:#d8c29e;transition:color .18s,transform .24s}
+#sequenceView .sequence-gear[aria-expanded=true]{color:#ffe2ac;transform:rotate(30deg)}
+@media(prefers-reduced-motion:reduce){.sequence-settings .sequence-actions,#sequenceView .sequence-gear{transition:none}}
+/* Keep the gear with the tracks at the top left; unfold settings to the right. */
+#sequenceView .sequence-tools{justify-content:flex-start;gap:10px}
+#sequenceView .sequence-settings{margin-left:0;justify-content:flex-start;flex:0 1 auto}
+#sequenceView .sequence-gear{margin:0;transform:none}
+#sequenceView .sequence-gear[aria-expanded=true]{transform:none}
+#sequenceView .sequence-settings .sequence-actions{transform:translateX(-10px)}
+#sequenceView .sequence-settings.is-open .sequence-actions{transform:translateX(0);margin-left:6px}
+#sequenceView .sequence-tools .track button,#sequenceView .sequence-tools .glass-icon{width:27px;height:27px;padding:5px;border:0;background:none!important;box-shadow:none;color:#b3a084}
+#sequenceView .sequence-tools svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;filter:none}
+#sequenceView .sequence-tools .track.active button,#sequenceView .sequence-tools .glass-icon[aria-expanded=true],#sequenceView .sequence-tools button:hover{color:#ffe2ac}
+@media(max-width:1000px){#sequenceView .sequence-tools{gap:4px}#sequenceView .sequence-tools .track button,#sequenceView .sequence-tools .glass-icon{width:23px;height:23px;padding:4px}#sequenceView .sequence-tools svg{width:15px;height:15px}}
+/* Sequence-only settings occupy the upper-left glass toolbar. */
+.glass-bar>.sequence-settings{display:none;margin:0 auto 0 0;justify-content:flex-start;min-width:0}
+body[data-mode=sequence] .glass-bar>.sequence-settings{display:flex}
+.glass-bar .sequence-settings .sequence-gear{margin:0;flex-shrink:0;transform:none}
+.glass-bar .sequence-settings.is-open .sequence-actions{margin-left:8px;max-width:285px}
+.glass-bar .sequence-settings .sequence-actions{transform:translateX(-10px)}
+.glass-bar .sequence-settings.is-open .sequence-actions{transform:translateX(0)}
+.glass-bar .sequence-settings .glass-icon[aria-expanded=true]{color:#ffe2ac;opacity:1}
+/* Track selection belongs to the same retractable settings strip. */
+.glass-bar .sequence-settings #tracks{display:flex;align-items:center;flex-shrink:0;height:30px;margin:0 8px 0 0;gap:5px}
+.glass-bar .sequence-settings .track{display:flex;align-items:center;height:30px;gap:0;border:0;border-radius:0;background:none;color:#d8c29e}
+.glass-bar .sequence-settings .track button{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;flex-shrink:0;width:28px;height:30px;padding:5px;border:0;border-radius:0;background:none;box-shadow:none;color:#d8c29e;opacity:.8;font-size:0;transition:opacity .15s,filter .15s}
+.glass-bar .sequence-settings .track svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 2px #0008);pointer-events:none}
+.glass-bar .sequence-settings .track.active [data-track]{color:#ffe2ac;opacity:1}
+.glass-bar .sequence-settings .track .muted-track{opacity:.35}
+.glass-bar .sequence-settings .track:after{content:none}
+.glass-bar .sequence-settings .track button:hover{opacity:1;color:#ffe2ac;filter:drop-shadow(0 0 5px #e7c18a55)}
+.glass-bar .sequence-settings .track button:focus-visible{outline:1px solid #d1b58766;outline-offset:2px;border-radius:3px}
+.glass-bar .sequence-settings.is-open .sequence-actions{max-width:600px}
+body[data-mode=sequence] .glass-bar:has(.sequence-settings.is-open)>.glass-actions{display:none}
+#sequenceView{top:clamp(39px,4cqw,60px);bottom:3%;gap:3px}
+#sequenceView .roll-container{flex:1;min-height:0}
+@media(max-width:1000px){.glass-bar .sequence-settings #tracks{height:26px;gap:1px;margin-right:3px}.glass-bar .sequence-settings .track{height:26px}.glass-bar .sequence-settings .track button{width:24px;height:26px;padding:4px}.glass-bar .sequence-settings .track svg{width:17px;height:17px}.glass-bar .sequence-settings .sequence-actions{gap:1px}#sequenceView{top:36px}}
+
+/* Both sequencer drawers share the smaller etched toolbar dimensions. */
+.glass-bar>.sequence-tracks{margin:0;flex-shrink:0}
+.glass-bar .sequence-settings .glass-icon,.glass-bar .sequence-settings .track button{width:24px;height:26px;padding:4px}
+.glass-bar .sequence-settings .glass-icon svg,.glass-bar .sequence-settings .track svg{width:17px;height:17px;flex:0 0 17px;stroke-width:1.4}
+.glass-bar .sequence-settings #tracks,.glass-bar .sequence-settings .track{height:26px}
+.glass-bar .sequence-settings #tracks{margin:0;gap:4px}
+.glass-bar .sequence-settings .sequence-actions{gap:4px}
+.glass-bar .sequence-settings.is-open .sequence-actions{max-width:300px;margin-left:5px}
+
+/* Recording lives with tracks, leaving the physical Play control clear. */
+.glass-bar #record.active{color:#ffe2ac;opacity:1}
+.glass-bar #record.active svg{fill:currentColor;filter:drop-shadow(0 0 4px #e7c18a55)}
+
+.session-progress{position:relative}
+.session-progress>div{display:none}
+.session-progress .seek-time-tip{position:absolute;bottom:calc(100% + 3px);transform:translateX(-50%);font:9px/1.2 Arial,sans-serif;color:#dbc49f;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .12s}
+.session-progress.handle-hover .seek-time-tip,.session-progress:focus-within .seek-time-tip{opacity:.9}
+
+/* A single etched upload action; native file-picker chrome stays invisible. */
+#importDialog .upload-zone{flex-direction:row;gap:9px;color:var(--glass-ink);opacity:.8;filter:none;transition:opacity .15s,color .15s}
+#importDialog .upload-zone svg{width:19px;height:19px;stroke-width:1.4;fill:none;filter:drop-shadow(0 1px 2px #0008)}
+#importDialog .upload-zone strong{font:400 12px/1.4 Arial,sans-serif;color:inherit}
+#importDialog .upload-zone>span{display:none}
+#importDialog .upload-zone input[type=file]{position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;opacity:0;cursor:pointer;z-index:1}
+#importDialog .upload-zone:hover,#importDialog .upload-zone:focus-within{opacity:1;color:var(--glass-lit);filter:none}
+#importDialog .upload-zone:focus-within{outline:0}
+#importDialog .upload-zone:focus-within strong{text-decoration:underline;text-underline-offset:5px;text-decoration-color:#d1b58788}
+@media(max-width:1000px){#importDialog .upload-zone svg{width:17px;height:17px}#importDialog .upload-zone strong{font-size:11px}}
