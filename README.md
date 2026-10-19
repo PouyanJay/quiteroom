@@ -7,10 +7,8 @@
 Play a melody, build a loop, or learn a song at your own pace.<br>
 A browser music studio with eight instruments, a perspective keyboard, and warm glass controls.
 
-[![Open the studio](https://img.shields.io/badge/Open_the_studio-Atelier-c59b72?style=flat-square)](https://atelier-keys-pouyan.jahangiri-pouyan.chatgpt.site)
+[![Live demo](https://img.shields.io/badge/demo-pouyanjay.github.io%2Fquiteroom-c59b72?style=flat-square)](https://pouyanjay.github.io/quiteroom/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-8b9479?style=flat-square)](LICENSE)
-
-[**Open the studio →**](https://atelier-keys-pouyan.jahangiri-pouyan.chatgpt.site)
 
 [The experience](#the-experience) · [Play](#play) · [Sequence](#sequence) · [Learn](#learn) · [Run locally](#run-locally)
 
@@ -84,7 +82,7 @@ Open [localhost:8000](http://localhost:8000). Serve the app over HTTP so the bun
 <details>
 <summary>For contributors</summary>
 
-All application source lives in `dist/` and is edited directly. The app runs as a static site; publishing the contents of `dist/` is enough to host it. Changes to this repository do not automatically update the linked live studio.
+All application source lives in `dist/` and is edited directly. Every push to `main` deploys `dist/` to [GitHub Pages](https://pouyanjay.github.io/quiteroom/) through the [deployment workflow](.github/workflows/pages.yml). You can also run the workflow manually from the repository's Actions tab.
 
 For the existing logic checks, use Node.js 22 or later:
 
