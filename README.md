@@ -1,57 +1,104 @@
-# Atelier — Quiet Room
+<div align="center">
 
-A browser music studio with a dimensional keyboard, warm glass controls, live instruments, a compact sequencer, and falling-note practice.
+# Quiet Room
+
+**A little room for your next musical idea.**
+
+Play a melody, build a loop, or learn a song at your own pace.<br>
+A browser music studio with eight instruments, a perspective keyboard, and warm glass controls.
+
+[![Open the studio](https://img.shields.io/badge/Open_the_studio-Atelier-c59b72?style=flat-square)](https://atelier-keys-pouyan.jahangiri-pouyan.chatgpt.site)
+[![License: MIT](https://img.shields.io/badge/license-MIT-8b9479?style=flat-square)](LICENSE)
+
+[**Open the studio →**](https://atelier-keys-pouyan.jahangiri-pouyan.chatgpt.site)
+
+[The experience](#the-experience) · [Play](#play) · [Sequence](#sequence) · [Learn](#learn) · [Run locally](#run-locally)
+
+<img src="docs/assets/studio-play.png" alt="Quiet Room in Play mode, with a glass music stand and perspective keyboard in a softly lit room" width="1000" />
+
+<sub>Play, compose, and practice in one quiet space.</sub>
+
+</div>
+
+## The experience
+
+Quiet Room makes space for small musical moments: finding a chord you like, sketching a phrase, or finally getting a melody under your fingers. Open the studio and start at the keyboard. Switch between playing, composing, and practicing as the idea takes shape.
+
+The room is part of the experience. Soft light, a dimensional keyboard, and controls on the glass keep the instrument at the center. Use your computer keyboard, touch the keys, or connect a MIDI keyboard.
+
+## Play
+
+**Find a sound. Follow it somewhere.**
+
+Start with a warm piano, then explore guitar, electric keys, analog pad, bass, glass bells, organ, and soft strings. Shape the sound with tone and space controls, hold a chord with sustain, and watch the visualization respond as you play.
+
+- Play directly on the keyboard with a mouse or touch, or use your computer keys.
+- Shift the keyboard's range and toggle note names as you get comfortable.
+- Connect a MIDI keyboard for a more familiar playing experience, where your browser supports it.
+
+## Sequence
+
+**Turn a passing idea into a loop.**
+
+Write notes into the grid or record a phrase into the selected track. Layer three instruments across a two-bar loop, adjust the tempo, and mute parts to hear how they fit together. Undo an edit when you want to try another direction, then export your sequence as MIDI to keep working on it elsewhere.
+
+<img src="docs/assets/studio-sequence.png" alt="Sequence mode showing the note grid on the studio's glass music stand" width="1000" />
+
+Your sequence is saved in the current browser. Export a MIDI file to keep a separate copy or move an idea to another device.
+
+## Learn
+
+**Take it one note at a time.**
+
+Choose a built-in melody, practice your own sequence, or import a MIDI file. Falling notes guide you toward the keys. Listen first, slow the piece down, or turn on **Wait for me** to pause until you play the right notes.
+
+<img src="docs/assets/studio-learn.png" alt="Learn mode with falling notes above the keyboard" width="1000" />
+
+Start with *Ode to Joy*, *Twinkle, Twinkle*, or a C major warm-up. When you're ready, bring your own music: MIDI preserves notes, chords, and timing. Audio import also offers experimental melody detection for a clean solo instrument or hummed tune; it processes the first 60 seconds and is not reliable for full songs with chords or drums.
+
+## Your first minute
+
+1. **Open the studio** and play a few notes with the piano.
+2. **Choose another sound** and adjust tone or space to make it yours.
+3. **Open Sequence** to sketch a loop, or **Learn** to follow a melody.
+
+| Control | Action |
+| --- | --- |
+| Computer keyboard | Use A–L and W–P; see Keyboard settings for guidance |
+| Shift | Hold sustain |
+| Space | Play or pause the transport |
+| Connect keyboard | Connect a MIDI instrument in a supported browser |
+
+Sound starts after you interact with the studio. MIDI hardware access depends on your browser and permissions. Saved sequences stay in this browser and do not sync between devices.
 
 ## Run locally
 
-Use Python 3 to serve the app:
+No build step or API key is needed. From the repository directory:
 
 ```sh
 python3 -m http.server 8000 --directory dist
 ```
 
-Open http://localhost:8000. Serve over HTTP rather than opening index.html directly so guitar samples can load. No build step or API key is required. MIDI device access requires a supported browser and localhost or HTTPS.
+Open [localhost:8000](http://localhost:8000). Serve the app over HTTP so the bundled guitar samples can load.
 
-## Development
+<details>
+<summary>For contributors</summary>
 
-All application source is in `dist/`; despite its name, it is edited directly.
+All application source lives in `dist/` and is edited directly. The app runs as a static site; publishing the contents of `dist/` is enough to host it. Changes to this repository do not automatically update the linked live studio.
 
-- `app.js`: instruments, audio, MIDI, recording, sequencing, lessons, import/export, persistence.
-- `console.js`: room layout and physical control rail.
-- `glass.js`: on-glass dialogs, toolbars, track/settings drawers, navigation.
-- `key-input.js`: perspective keyboard pointer input.
-- `resonator.js`: Play mode visualization.
-- `style.css`, `console.css`, `depth.css`, `glass.css`: styles in cascade order; later files override earlier ones.
-- `assets/`: room imagery and bundled guitar samples.
-- `tests/`: Node tests with mocked DOM and audio.
-
-Node.js 22+ is recommended for development checks:
+For the existing logic checks, use Node.js 22 or later:
 
 ```sh
 npm install
 npm test
 ```
 
-The tests verify logic, not browser rendering or audible sound quality. Manually check keyboard press/release, Play/Learn transport, sample loading, MIDI import, and toolbar placement after relevant changes.
+These tests cover application logic with mocked browser and audio APIs. Check rendering, keyboard interaction, and sound in a real browser when changing the experience. Preserve the warm glass styling and Play mode default, and update asset version query strings in `dist/index.html` when changing browser assets.
 
-The studio starts in Play mode. Sequence mode has separate Tracks and Settings drawers. Learn mode offers MIDI/audio import, listening, speed control, and wait-for-key practice. Sequence data is saved locally in the browser; it is not synced between devices.
+</details>
 
-## Audio and limitations
+## Credits & license
 
-Guitar uses 88 bundled FluidR3 steel-string samples, loaded and decoded on first use. Other instruments use Web Audio synthesis. Sample attribution and license links are in `dist/assets/GUITAR-CREDITS.txt` and the app Help view.
+Quiet Room is released under the [MIT License](LICENSE).
 
-Audio-to-note transcription is experimental, monophonic, and limited to the first 60 seconds. For exact notes, chords, and timing, import MIDI. The sequencer uses three tracks and a two-bar, 16-step loop.
-
-## Hosting
-
-Deploy the `dist/` folder to a static HTTPS host. No backend is required. GitHub changes do not automatically deploy to the existing ChatGPT Site.
-
-Current hosted studio: https://atelier-keys-pouyan.jahangiri-pouyan.chatgpt.site
-
-## Continuing with a coding assistant
-
-Ask the assistant to read this README and inspect the existing CSS cascade before making changes. Preserve the warm, minimal glass style, icon-based controls, and Play mode default. Keep auxiliary UI on the glass. Update the asset version query strings in `dist/index.html` after changes to avoid stale browser caches.
-
-## License
-
-Use the MIT LICENSE already present in PouyanJay/quiteroom. Guitar samples retain their separate CC BY 3.0 license; see dist/assets/GUITAR-CREDITS.txt.
+The guitar uses bundled FluidR3 steel-string samples by Frank Wen and contributors, packaged by MIDI.js Soundfonts under **CC BY 3.0**. See [guitar credits](dist/assets/GUITAR-CREDITS.txt) for attribution and source links. The other instruments use browser audio synthesis.
