@@ -1,4 +1,4 @@
-name: Deploy Quiet Room to GitHub Pages
+name: Deploy Quite Room to GitHub Pages
 
 on:
   push:

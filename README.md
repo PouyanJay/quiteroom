@@ -1,6 +1,6 @@
 <div align="center">
 
-# Quiet Room
+# Quite Room
 
 **A little room for your next musical idea.**
 
@@ -12,7 +12,7 @@ A browser music studio with eight instruments, a perspective keyboard, and warm 
 
 [The experience](#the-experience) · [Play](#play) · [Sequence](#sequence) · [Learn](#learn) · [Run locally](#run-locally)
 
-<img src="docs/assets/studio-play.png" alt="Quiet Room in Play mode, with a glass music stand and perspective keyboard in a softly lit room" width="1000" />
+<img src="docs/assets/studio-play.png" alt="Quite Room in Play mode, with a glass music stand and perspective keyboard in a softly lit room" width="1000" />
 
 <sub>Play, compose, and practice in one quiet space.</sub>
 
@@ -20,7 +20,7 @@ A browser music studio with eight instruments, a perspective keyboard, and warm 
 
 ## The experience
 
-Quiet Room makes space for small musical moments: finding a chord you like, sketching a phrase, or finally getting a melody under your fingers. Open the studio and start at the keyboard. Switch between playing, composing, and practicing as the idea takes shape.
+Quite Room makes space for small musical moments: finding a chord you like, sketching a phrase, or finally getting a melody under your fingers. Open the studio and start at the keyboard. Switch between playing, composing, and practicing as the idea takes shape.
 
 The room is part of the experience. Soft light, a dimensional keyboard, and controls on the glass keep the instrument at the center. Use your computer keyboard, touch the keys, or connect a MIDI keyboard.
 
@@ -97,6 +97,6 @@ These tests cover application logic with mocked browser and audio APIs. Check re
 
 ## Credits & license
 
-Quiet Room is released under the [MIT License](LICENSE).
+Quite Room is released under the [MIT License](LICENSE).
 
 The guitar uses bundled FluidR3 steel-string samples by Frank Wen and contributors, packaged by MIDI.js Soundfonts under **CC BY 3.0**. See [guitar credits](dist/assets/GUITAR-CREDITS.txt) for attribution and source links. The other instruments use browser audio synthesis.
